@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\JuanTemplate",
+    "\\JuanTemplate\\DataAccesLayer",
+    "\\JuanTemplate\\Interfaces",
+    "\\JuanTemplate\\Models",
+    "\\JuanTemplate\\Views",
+    "\\JuanTemplate\\Views\\Shared"
+  ],
+  "SelectedNode": "\\JuanTemplate\\Views\\Shared\\_ProductPartial.cshtml",
+  "PreviewInSolutionExplorer": false
+}
