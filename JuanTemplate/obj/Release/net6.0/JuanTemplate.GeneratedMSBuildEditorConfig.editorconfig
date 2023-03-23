@@ -9,29 +9,33 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = JuanTemplate
 build_property.RootNamespace = JuanTemplate
-build_property.ProjectDir = C:\Users\ganji\Desktop\JuanMain\JuanTemplate\
+build_property.ProjectDir = C:\Users\ganji\Desktop\juan_madina-master\JuanTemplate\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\ganji\Desktop\JuanMain\JuanTemplate
+build_property.MSBuildProjectDirectory = C:\Users\ganji\Desktop\juan_madina-master\JuanTemplate
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/ganji/Desktop/JuanMain/JuanTemplate/Views/Home/Index.cshtml]
+[C:/Users/ganji/Desktop/juan_madina-master/JuanTemplate/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ganji/Desktop/JuanMain/JuanTemplate/Views/Shared/_Layout.cshtml]
+[C:/Users/ganji/Desktop/juan_madina-master/JuanTemplate/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ganji/Desktop/JuanMain/JuanTemplate/Views/Shared/_ProductPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Qcm9kdWN0UGFydGlhbC5jc2h0bWw=
+[C:/Users/ganji/Desktop/juan_madina-master/JuanTemplate/Views/Shared/_ModalPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Nb2RhbFBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ganji/Desktop/JuanMain/JuanTemplate/Views/_ViewImports.cshtml]
+[C:/Users/ganji/Desktop/juan_madina-master/JuanTemplate/Views/Shared/_ProductListPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Qcm9kdWN0TGlzdFBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ganji/Desktop/juan_madina-master/JuanTemplate/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ganji/Desktop/JuanMain/JuanTemplate/Views/_ViewStart.cshtml]
+[C:/Users/ganji/Desktop/juan_madina-master/JuanTemplate/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

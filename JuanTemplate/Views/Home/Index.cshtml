@@ -99,42 +99,9 @@
                 <div class="col-12">
                     <div class="product-carousel-4 mbn-50 slick-row-15 slick-arrow-style">
                         <!-- product single item start -->
-                        @foreach (Product product in Model.Products)
-                        {
-                            <div class="product-item mb-50">
-                                <div class="product-thumb">
-                                    <a href="product-details.html">
-                                        <img src="assets/img/product/@product.MainImage" alt="">
-                                    </a>
-                                </div>
-                                <div class="product-content">
-                                    <h5 class="product-name">
-                                        <a href="product-details.html">@product.Title</a>
-                                    </h5>
-                                    @if (product.DiscountedPrice > 0)
-                                    {
-                                        <div class="price-box">
-                                            <span class="price-regular">$@product.Price</span>
-                                            <span class="price-old"><del>$@product.DiscountedPrice</del></span>
-                                        </div>
-                                    }
-                                    else
-                                    {
-                                        <span class="price-regular"><del>$@product.Price</del></span>
-                                    }
-                                    <div class="product-action-link">
-                                        <a href="#" data-toggle="tooltip" title="Wishlist"><i class="ion-android-favorite-outline"></i></a>
-                                        <a href="#" data-toggle="tooltip" title="Add To Cart"><i class="ion-bag"></i></a>
-                                        <a href="#" data-toggle="modal" data-target="#quick_view">
-                                            <span data-toggle="tooltip"
-                                              title="Quick View"><i class="ion-ios-eye-outline"></i></span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        }
-                        <!-- product single item start -->
+                        @await Html.PartialAsync("_ProductListPartial",Model.Products)
 
+                        <!-- product single item start -->
 
                     </div>
                 </div>
@@ -335,6 +302,3 @@
         <!-- brand area end -->
     </main>
     <!-- main wrapper end -->
-
- @await Html.PartialAsync("_ProductPartial")
-

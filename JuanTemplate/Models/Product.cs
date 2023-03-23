@@ -25,9 +25,20 @@ namespace JuanTemplate.Models
         public int? Code { get; set; }
         [StringLength(255)]
         public string? MainImage { get; set; }
-
         public int CategoryId { get; set; }
         public Category? Category { get; set; }
+
+
+        public IEnumerable<ProductImage>? ProductImages { get; set; }
+
+        [NotMapped]
+        public IEnumerable<byte>? TagIds { get; set; }
+        [NotMapped]
+        public IEnumerable<IFormFile>? Files { get; set; }
+        [NotMapped]
+        public IFormFile? MainFile { get; set; }
+
+
 
     }
 }
